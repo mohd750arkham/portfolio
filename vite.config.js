@@ -9,7 +9,7 @@ export default defineConfig({
   base : "https://github.com/mohd750arkham/portfolio.git/",
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve( "base", "./src"),
     },
   },
 });
